@@ -9,8 +9,12 @@
     <script>
         function cekPerangkat() {
             if (/Mobi|Android/i.test(navigator.userAgent)) {
-                alert("Kamu menggunakan HP! Silahkan zoom out halaman website dan jangan lupa tampilkan dengan landscape agar website menjadi lebih bagus!");
+                zoomOut();
             }
+        }
+
+        function zoomOut() {
+            document.body.style.zoom = "70%"; // Sesuaikan level zoom sesuai kebutuhan
         }
     </script>
 </head>
