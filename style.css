@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Russo+One&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    min-width: 1280px;
+    min-height: 720px;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+*{
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+    color:unset;
+}
+.bg1{
+    background-color: #2D3250;
+    color: white;
+}
+.bg2{
+    background-color: #7FC7D9;
+    color: black;
+}
+.bg3{
+    background-color: #F3F8FF;
+    color:black;
+}
+.tc1{
+    color:#7FC7D9;
+}
+.m-0{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.w-50{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.w-100{
+    width: 100%;
+}
+.full{
+    min-width: 100%;
+    min-height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+nav>*>*{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav li{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+}
+.head-img{
+    position: relative;
+    width: 50%;
+    height: 700px;
+}
+.head-img>img{
+    position: absolute;
+    width: 1300px;
+    top: -780px;
+    left: -340px;
+    filter: grayscale(80%);
+    z-index: 1;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70% !important;
+}
+header>div{
+    display: flex;
+    align-items: center;
+}
+.head-desc{
+    width: 50%;
+}
+
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+}
+.profile-img > img{
+    border-radius: 5px;
+}
+
+.profile-acc ul{
+    display: flex; list-style: none;
+    margin:0;
+    padding: 0;
+}
+.profile-acc li{
+    margin: 5px 5px;
+}
+.card div{
+    text-wrap: wrap;
+}
+.card{
+    width: 350px !important;
+    color:white;
+    background-color: #2D3250;
+    border-radius: 10px;
+    padding: 15px;
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    flex:0 0 auto;
+}
+.card-desc{
+    margin-top: 5px;
+    text-align: justify;
+}
+.list-skill{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+.list-skill > div{
+    margin-right: 10px;
+}
+
+.edu-list > li{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px !important;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.edu-list > li > div{
+    margin-right: 30px;
+}
+.edu-img{
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.edu-img > img {
+    width: 140%;
+}
+.edu-desc{
+    text-align: start;
+    width: 600px;
+}
+.contact-form{
+    width: 48%;
+}
+.contact-desc{
+    width: 48%;
+    text-align: justify;
+}
+.contact-form input{
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.contact-form textarea{
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-bottom: 5px;
+}
